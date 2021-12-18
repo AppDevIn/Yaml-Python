@@ -3,7 +3,7 @@ import pdb
 import yaml
 
 
-class Yaml():
+class Yaml:
 
     def __init__(self, path):
         super(Yaml, self).__init__()
