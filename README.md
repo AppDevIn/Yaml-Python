@@ -19,10 +19,10 @@ y = Yaml(f"{os.path.dirname(os.path.realpath(__file__))}/app.yaml")
 
 env = os.getenv('env')
 
-@y.value(f"instagram-{env}.profile")
-def profiles(): pass
-@y.value(f"instagram-{env}.session-id")
+@y.value(f"project-{env}.session-id")
 def sessionId(): pass
+
+print(sessionId)
 ```
 
 ## Credits
