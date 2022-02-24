@@ -26,3 +26,10 @@ class Yaml:
             return r_value
 
         return fun
+
+    def get_value(self, value: str):
+        values = value.split(".")
+        r_value = None
+        for v in values:
+            r_value = self.config[v] if r_value is None else r_value[v]
+        return r_value

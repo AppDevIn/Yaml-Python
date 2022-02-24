@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="Yaml8",
-    version="0.1.1",
+    version="0.1.2",
     author="AppDevIn Sliver",
     author_email=" teamprojectlive@example.com",
     description="Python package to make getting yaml easier and cleaner",
